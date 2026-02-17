@@ -138,7 +138,7 @@ Primary energy sources are further categorized by their end use:
 | Energy Mix by Continent | Stacked Bar Chart | Show renewable vs. fossil composition by region |
 | Growth Rate Comparison | Scatter Plot | Analyze solar vs. wind growth dynamics by country |
 
-## 🔄 Future Enhancements
+## Future Enhancements
 
 ### Planned Features
 
