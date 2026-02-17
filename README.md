@@ -1,43 +1,52 @@
 
-# Global Energy Transition Dashboard
-Interactive Tableau dashboard analyzing global energy transition trends.
+# Global Energy Project
+An interactive Tableau data visualization project exploring global energy consumption patterns, renewable energy growth, and the transition from fossil fuels to clean energy sources across continents and countries from 1970 to 2025.
 
-## Data
-Multi-country, multi-year energy data by source.
+## Data Source
+https://lowcarbonpower.org/
 
-### Data Scale
-- **Unit**: Terawatt-hours (TWh)
-- **1 TWh** = 1,000,000,000 kWh (1 billion kilowatt-hours)
+**Key Metrics**:
+- Total Energy Consumption (TWh)
+- Fossil Fuel Energy (TWh)
+- Renewable Energy (TWh)
+- Nuclear Energy (TWh)
+
+**Geographic Coverage**: 
+- 200+ countries
+- 6 continents
+- Regional and continental aggregations
+
+**Temporal Coverage**: 1970-2025
 
 ## Methods
 - Data cleaning & feature engineering in Python
 - Energy dependency and transition metrics
 - Interactive dashboards in Tableau Public
 
-# Global Renewable Energy Story
+##  Visualizations
+## Visualizations Included
 
-An interactive Tableau data visualization project exploring global energy consumption patterns, renewable energy growth, and the transition from fossil fuels to clean energy sources across continents and countries from 1970 to 2025.
+| Sheet Name | Visualization Type | Purpose |
+|------------|-------------------|---------|
+| Complete Picture| Bubble Chart | Overview of the global energy landscape|
+| Energy Gap | Stacked Area Chart | The gap between fossil fuels and renewable energy across thre time periods |
+| Energy Giants | Bar Chart | Top energy-consuming countries |
+| Energy Mix | Stacked Bar Chart | Breakdown of energy sources by continent |
+| Energy Source | Pie chart | Distribution of various sources of energy; coal, oil, hydro, biofuels etc |
+| Energy Type | Stacked Area Chart | Comparison between fossil, renewable and nuclear energy overtime |
+| Fossil Reality | Bar Chart |Current state of fossil dependent vs renewable transition and role of nuclear energy |
+| Fossil Dependence | Horizontal Bar Chart | Continents dependency on fossil fuels and distance to renewable transition goal |
+| Global Energy Consumption | Grouped Bar Chart | Total energy consumption trends worldwide over three periods |
+| Global Energy Transition | Dashboard | Interactive Dashboard showing key energy metrics |
+| Renewable Energy Share | Map | Geographic map showing renewable energy adoption by country |
+| Renewable Revolution | Line Chart | Growth of renewable energy across three time periods |
 
-## Project Overview
+##  Key Insights
 
-This Tableau story provides comprehensive insights into:
-
-- **Global energy consumption trends** spanning over five decades
-- **Renewable vs. fossil fuel adoption** patterns across continents
-- **Solar and wind energy growth trajectories** and acceleration periods
-- **Country-level comparisons** identifying energy leaders and fast-growing markets
-- **Continental energy mix evolution** showing the shift toward sustainability
-
-The project consists of multiple interactive dashboards and visualizations that tell the story of humanity's energy transition.
-
-##  Key Features
-
-### Main Story: Global Energy Overview
-
-- **Energy Growth Visualization**: Temporal comparison showing how energy consumption has evolved across three key periods (Pre-1995, 1995-2010, 2011-Latest)
-- **Top Energy Consumers**: Ranking of countries by total energy consumption
-- **Energy Source Leaders**: Individual rankings for renewable, fossil, and nuclear energy
-- **Continental Comparisons**: Regional patterns in energy mix and growth rates
+- **Energy consumption has more than doubled** since 1995
+- **USA and China** dominate global energy use
+- **Renewable energy** has grown exponentially since 2010
+- **Significant regional variation** in renewable adoption
 
 ## Visualizations Included
 
@@ -53,36 +62,6 @@ The project consists of multiple interactive dashboards and visualizations that 
 | Solar vs Wind Timeline | Dual-Axis Line Chart | Compare growth trajectories of both technologies |
 | Energy Mix by Continent | Stacked Bar Chart | Show renewable vs. fossil composition by region |
 | Growth Rate Comparison | Scatter Plot | Analyze solar vs. wind growth dynamics by country |
-
-## 🗂️ Data Sources
-
-**Dataset**: Global Energy Transition Data (1970-2025)
-
-**Key Metrics**:
-- Total Energy Consumption (TWh)
-- Fossil Fuel Energy (TWh)
-- Renewable Energy (TWh)
-- Nuclear Energy (TWh)
-- Solar Energy (TWh)
-- Wind Energy (TWh)
-- Growth Rates (Year-over-Year %)
-
-**Geographic Coverage**: 
-- 200+ countries
-- 6 continents
-- Regional and continental aggregations
-
-**Temporal Coverage**: 1970-2025 (with projections for recent years)
-
-## 💡 Key Insights
-
-### Global Trends
-
-🔸 **Energy consumption has more than doubled** since 1995, with Asia experiencing the most dramatic growth
-
-🔸 **USA and China dominate** global energy consumption, together accounting for over 40% of worldwide usage
-
-🔸 **Renewable energy has grown exponentially** since 2010, driven primarily by solar and wind technologies
 
 ## 🔄 Future Enhancements
 
@@ -101,7 +80,6 @@ The project consists of multiple interactive dashboards and visualizations that 
 
 - [ ] Automate data refresh from public sources
 - [ ] Add real-time or quarterly data updates
-- [ ] Expand historical data pre-1970 where available
 - [ ] Include more granular geographic data (states/provinces)
 
 ## Tools
