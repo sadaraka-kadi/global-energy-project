@@ -2,7 +2,7 @@
 # Global Energy Project
 An interactive Tableau data visualization project exploring global energy consumption patterns, renewable energy growth, and the transition from fossil fuels to clean energy sources across continents and countries from 1970 to 2025.
 
-## Data Source
+## Dataset
 https://lowcarbonpower.org/data-including-net-imports.csv
 
 **Key Metrics**:
@@ -159,3 +159,16 @@ Primary energy sources are further categorized by their end use:
 
 ## Tools
 Python, Pandas, Tableau Public
+
+## License
+
+[ MIT]
+
+## Author
+
+[Kadi Sadaraka]
+
+## Acknowledgments
+
+- Dataset: Low Carbon Power yearly data
+
